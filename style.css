@@ -1,0 +1,77 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#navbar {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+#navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+#navbar a {
+  text-decoration: none;
+  color: white;
+}
+
+#navbar a:hover {
+  text-decoration: underline;
+}
+
+#welcome-section {
+  height: 100vh;
+  background-color: #f0f0f0;
+  text-align: center;
+  padding: 50px;
+}
+
+#projects {
+  padding: 50px;
+}
+
+.project-tile {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+#profile-link {
+  display: block;
+  text-align: center;
+  padding: 10px;
+  background-color: #333;
+  color: white;
+  text-decoration: none;
+}
+
+#profile-link:hover {
+  background-color: #555;
+}
+
+/* Media Query for responsiveness */
+@media (max-width: 600px) {
+  #welcome-section {
+    padding: 30px;
+  }
+
+  .project-tile {
+    padding: 15px;
+  }
+
+  #profile-link {
+    padding: 8px;
+  }
+}
